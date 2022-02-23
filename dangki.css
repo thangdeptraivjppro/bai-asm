@@ -1,0 +1,159 @@
+.menu {
+    line-height: 40px;
+    font-variant: small-caps
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.menu .down {
+    text-align: left;
+}
+
+.menu>ul>li>a {
+    font-variant: small-caps;
+    font-size: larger;
+    color: rgb(49, 9, 9);
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: rgb(82, 148, 235);
+}
+
+.menu>ul>li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+    z-index: 1;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    font-variant: small-caps;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    color: rgb(7, 6, 6);
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+li {
+    list-style: none;
+}
+
+form {
+    float: right;
+}
+
+.name-left {
+    float: left;
+}
+
+article {
+    background-image: linear-gradient(to right top, #12ed6e, #98cf09, #cfaa00, #f27f00, #ff4d44, #ff3e82, #f951c0, #c973f6, #6ea3ff, #00c6ff, #00dfff, #00f2f2);
+    height: 750px;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    border: 3px solid black;
+    text-align: center;
+    background-image: linear-gradient(to right top, #00ff21, #9fd700, #d5a900, #f47100, #ff1900);
+    height: 580px;
+    padding-top: 50px;
+    font-family: "roboto", sans-serif;
+    position: absolute;
+    background-color: white;
+    max-height: 300px;
+    top: 30%;
+    left: 33%;
+    padding: 50px 45px 30px 34px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 50px gray;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.form input {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    margin: 0px 0px 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    border-radius: 10px;
+    background-color: aqua;
+    width: 50%;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-mk>button>a {
+    text-decoration: none;
+}
+
+.form-button:hover {
+    color: aqua;
+    box-shadow: inset 0 0 20px blue;
+}
+
+.form-button:disabled {
+    color: darkblue;
+    box-shadow: inset 0 0 20px gray;
+}
+
+footer {
+    text-align: center;
+    background-color: wheat;
+}
